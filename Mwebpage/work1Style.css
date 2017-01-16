@@ -1,0 +1,42 @@
+* {
+  background-color: #F8FAFA;
+  font-family: 'Gill Sans Light', sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #F8FAFA 0%, #F8FAFA 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #F8FAFA 0%, #F8FAFA 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #F8FAFA 0%, #F8FAFA 100%);
+  position: relative;
+  display: flex;
+  align-content: center;
+}
+
+.work {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
+
+.work img {
+  width: 400px;
+  height: 400px;
+}
+
+.item {
+  width: 100%;
+}
+
+p {
+  color: rgba(3, 40, 35, 0.5);
+  font-size: 100%;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: .5em;
+}
