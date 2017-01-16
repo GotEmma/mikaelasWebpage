@@ -1,0 +1,92 @@
+* {
+  background-color: #F8FAFA;
+  font-family: 'Gill Sans Light', sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #F8FAFA 0%, #F8FAFA 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #F8FAFA 0%, #F8FAFA 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #F8FAFA 0%, #F8FAFA 100%);
+  overflow: auto;
+}
+
+.header {
+  position: fixed;
+  display: block;
+  z-index: 1;
+  width: 100%;
+}
+
+.container {
+  margin: 0 0 1% 5%;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline;
+  color: rgba(3, 40, 35, 0.7);
+  font-weight: 60;
+  font-size: 75%;
+  text-transform: uppercase;
+}
+
+h1 {
+  color: rgba(3, 40, 35, 0.7);
+  text-transform: uppercase;
+  font-size: 200%;
+  line-height: 50%;
+  margin: 5% 0 1% 5%;
+  text-align: left;
+}
+
+.work {
+  margin: 100px 0 0 0;
+  background-color: #F8FAFA;
+}
+
+.worklist {
+  padding: 5%;
+  background-color: #F8FAFA;
+}
+
+.worklist img {
+  width: 500px;
+  height: 500px;
+}
+
+.worklist li {
+  margin: 0 5% 5% 0;
+  width: 40%;
+  display: inline-block;
+  float: left;
+}
+
+p {
+  color: rgba(3, 40, 35, 0.5);
+  font-size: 100%;
+  margin: 0 0 0 0;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: .5em;
+}
+
+a {
+  color: rgba(3, 40, 35, 0.5);
+  font-size: 100%;
+  line-height: 100%;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: .3em;
+}
